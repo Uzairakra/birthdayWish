@@ -1,0 +1,132 @@
+export const siteConfig = {
+  // Change these values to personalize the complete site.
+  girlfriendName: 'Tooba',
+  birthdayDate: '2026-11-15T05:00:00+05:00',
+  pin: '1115',
+  senderName: 'Uzair',
+  specialDate: '2026-11-15T05:00:00+05:00',
+  heroMessage: 'A small corner of the internet made just to celebrate you and the moments that deserve to be remembered.',
+  introLines: [
+    "Today isn't just another day…",
+    'Because someone genuinely special was born.',
+  ],
+  finalMessage: 'I hope this year brings you calm days, exciting beginnings, good people, and memories you will always want to keep.',
+  letter: [
+    'Happy Birthday.',
+    'Aaj ka din tumhare liye khoobsurat ho, jaise tum meri zindagi mein ho. Har khushi tumhare saath ho, har dua qubool ho.',
+    'Bas ek baat keh doon... kabhi kabhi kuch cheezein kehne ki zaroorat nahi hoti, magar kehne ki bhi himmat nahi milti. Tumhe pata hai ke main hamesha tumhare saath hoon, magar kabhi kabhi "hamesha" ka matlab thoda alag ho jaata hai.',
+    'Tum meri subah ki pehli dua ho aur raat ki aakhri yaad. Tum se alag har lamha adhoora lagta hai.',
+    'Mujhe bas itna yaad rakhna hai ke tum meri zindagi mein ho — aur yeh baat kabhi mat bhoolna ke tumhari ek muskaan meri saari duniya ho sakti hai.',
+    
+  ],
+  colors: {
+    midnight: '#100a0e',
+    burgundy: '#35131e',
+    wine: '#5a2233',
+    champagne: '#d6a475',
+    ivory: '#f7efe8',
+    rose: '#c77b88',
+  },
+  photos: {
+    lockScreen: '/images/lockScreen.webp',
+    intro: '/images/lockScreen.webp',
+    hero: '/images/hero.webp',
+    letter: '/images/env.webp',
+    gift: '/images/time2.webp',
+    scratch: '/images/gall1.webp',
+    music: '/images/music.webp',
+    finale: '/images/gall2.webp',
+    timeline: [
+      '/images/time1.webp',
+      '/images/time2.webp',
+      '/images/time3.webp',
+      '/images/time4.webp',
+    ],
+    gallery: [
+      '/images/time5.webp',
+      '/images/time1.webp',
+      '/images/gall1.webp',
+      '/images/gall2.webp',
+      '/images/time2.webp',
+      '/images/hero.webp',
+      '/images/time3.webp',
+      '/images/time4.webp',
+    ],
+  },
+  imagePositions: {
+    // '/images/1000159749.webp': '50% 26%',
+    // '/images/1000159748.webp': '50% 28%',
+    // '/images/1000159747.webp': '50% 22%',
+    // '/images/1000159716.webp': '50% 24%',
+    // '/images/1000159715.webp': '50% 24%',
+    // '/images/1000159712.webp': '50% 22%',
+    // '/images/1000159714.webp': '50% 24%',
+    // '/images/1000159713.webp': '50% 24%',
+  },
+  memories: [
+    {
+      date: 'A chapter worth keeping',
+      title: 'The Beginning',
+      description: 'Some memories become meaningful very quietly. They start as ordinary moments and later become the ones you remember most.',
+      photo: '/images/time1.webp',
+    },
+    {
+      date: 'One of those little moments',
+      title: 'The Laughs In Between',
+      description: 'Not every good memory needs a perfect plan. Sometimes the best ones are the random conversations and the unexpected smiles.',
+      photo: '/images/time2.webp',
+    },
+    {
+      date: 'A memory wall favorite',
+      title: 'Your Energy',
+      description: 'There is something memorable about the way you bring your own energy into a room — calm one moment, playful the next.',
+      photo: '/images/time3.webp',
+    },
+    {
+      date: 'Today',
+      title: 'Your Day',
+      description: 'A new year, a fresh chapter, and a whole collection of moments still waiting to happen.',
+      photo: '/images/time4.webp',
+    },
+  ],
+  appreciations: [
+    { title: 'Your kindness', text: 'The small thoughtful things matter more than people realize — and you have a way of making them feel natural.' },
+    { title: 'Your smile', text: 'It changes the mood of a moment without needing any explanation.' },
+    { title: 'Your energy', text: 'There is a calm confidence in the way you carry yourself that makes ordinary moments feel a little more memorable.' },
+    { title: 'Your support', text: 'Being there, listening, and caring in the little moments is something worth appreciating.' },
+    { title: 'Your little habits', text: 'The tiny details are often what make someone unforgettable — the things nobody else would think to notice.' },
+  ],
+  quiz: [
+    {
+      question: 'Which chapter fits this memory best?',
+      photo: '/images/time1.webp',
+      options: ['The Beginning', 'The Finale', 'The Cake'],
+      answer: 0,
+    },
+    {
+      question: 'Which mood matches this photo?',
+      photo: '/images/time2.webp',
+      options: ['Golden-hour calm', 'Night-time magic', 'Rainy afternoon'],
+      answer: 1,
+    },
+    {
+      question: 'What matters most about a memory?',
+      photo: '/images/time3.webp',
+      options: ['Perfect lighting', 'How it made you feel', 'The camera'],
+      answer: 1,
+    },
+  ],
+  scratchMessage: 'Lub You Kaka    :)',
+  giftMessage: 'may this year surprise you in the best possible ways Janam',
+  audio: {
+    trackTitle: 'Qasam',
+    artistName: 'Shae Gillx Afusic',
+    audioFile: '/audio/Qasam_Coke_Studio_Nu.WAV_Shae_Gill_x_Afusic_x_Abdullah_Kasumbi.mp3', // Example: '/audio/song.mp3'
+    coverPhoto: '/images/music.webp',
+  },
+  voiceMessage: {
+    title: '',
+    audioFile: '', // Example: '/audio/voice-message.mp3'
+    photo: '',
+  },
+};
