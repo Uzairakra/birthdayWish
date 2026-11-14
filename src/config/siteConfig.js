@@ -1,10 +1,10 @@
 export const siteConfig = {
   // Change these values to personalize the complete site.
   girlfriendName: 'Tooba',
-  birthdayDate: '2026-11-15T17:00:00+05:00',
+  birthdayDate: '2026-11-14T17:00:00+05:00',
   pin: '1115',
   senderName: 'Uzair',
-  specialDate: '2026-11-15T17:00:00+05:00',
+  specialDate: '2026-11-14T17:00:00+05:00',
   heroMessage: 'A small corner of the internet made just to celebrate you and the moments that deserve to be remembered.',
   introLines: [
     "Today isn't just another day…",
